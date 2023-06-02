@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller</title>
+</head>
+<body>
+    Côté vendeur
+    <form action="/SAVVendeur" method="POST">
+        <input type="text" name='description' placeholder="description">
+        <input type="integer" name="product_id" placeholder="Product ID" >
+        <label for="picture">Take a picture of your face:</label>
+
+        <input type="file"
+            name="picture"
+            accept="image/*"
+            capture="user">
+            c
+        <input  type="submit"  >
+    </form>
+
+</body>
+</html>
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;800&display=swap');
+    body {
+        font-family: 'Inter', sans-serif;
+        padding: 20px;
+    }
+    form {
+        margin-top: 50px;
+    }
+    input {
+        padding: 10px;
+        border-radius: 50px;
+        border: 0px;
+        border: 1px solid black ;
+    }
+    
+
+</style>
